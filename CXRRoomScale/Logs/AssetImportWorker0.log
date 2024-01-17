@@ -1,0 +1,336 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.2f1 (d74737c6db50) revision 14108471'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 12125 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity Hub\2022.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/chand/CXRRoomScale
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54469
+Successfully changed project path to: C:/Users/chand/CXRRoomScale
+C:/Users/chand/CXRRoomScale
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14144] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3293369036 [EditorId] 3293369036 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QJU0H8I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14144] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3293369036 [EditorId] 3293369036 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QJU0H8I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 24.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.2f1 (d74737c6db50)
+[Subsystems] Discovering subsystems at path D:/Unity Hub/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/chand/CXRRoomScale/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.1640
+Initialize mono
+Mono path[0] = 'D:/Unity Hub/2022.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Hub/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Hub/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Hub/2022.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity Hub/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014854 seconds.
+- Loaded All Assemblies, in  0.698 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 341 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.873 seconds
+Domain Reload Profiling: 1570ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (121ms)
+	LoadAllAssembliesAndSetupDomain (365ms)
+		LoadAssemblies (129ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (358ms)
+			TypeCache.Refresh (356ms)
+				TypeCache.ScanAssembly (331ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (873ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (747ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (522ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.484 seconds
+Refreshing native plugins compatible for Editor in 10.03 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.101 seconds
+Domain Reload Profiling: 2581ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (119ms)
+	LoadAllAssembliesAndSetupDomain (1084ms)
+		LoadAssemblies (520ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (655ms)
+			TypeCache.Refresh (553ms)
+				TypeCache.ScanAssembly (524ms)
+			ScanForSourceGeneratedMonoScriptInfo (88ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1101ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (762ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (529ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 9.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4319 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (1.3 MB). Loaded Objects now: 4780.
+Memory consumption went from 155.2 MB to 153.9 MB.
+Total: 7.062700 ms (FindLiveObjects: 0.413400 ms CreateObjectMapping: 0.441100 ms MarkObjects: 5.295800 ms  DeleteObjects: 0.910900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/NavMeshSurface.cs: f7b65cc2b41f7aeecf45a1d48fc1ea9e -> 34aebd278d8d3d5db6b23265b9c700f9
+  custom:scripting/monoscript/fileName/NavMeshSurfaceTests.cs: 8f67c389d0b679d28e5a3c038c225ed9 -> 
+  custom:scripting/precompiled-assembly-types:NavMeshComponentsTestsEditmode: 9a152a70a337f66bc4d18631faf48e4a -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/precompiled-assembly-types:NavMeshComponentsTestsPlaymode: 421d063c40c7bdb3f926afec0a8ac206 -> 
+  custom:scripting/monoscript/fileName/NavMeshModifierVolumeEditor.cs: 31e73a45c763fbf970b28d7cecf04f55 -> 262a50135a116189426aa01c964a744c
+  custom:scripting/monoscript/fileName/LocalNavMeshBuilder.cs: 28f1eda5f0a0a3cd51d435e7b32a3041 -> 
+  custom:scripting/monoscript/fileName/NavMeshPrefabInstance.cs: deb4174c2c6dc593062e8432ba997ae3 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:NavMeshComponents: 2c2f44029fe153e19984cd4e89e2fc0d -> 
+  custom:scripting/monoscript/fileName/AgentLinkMover.cs: 898dbfc1b14fcef85c312f44f5d96bf6 -> 
+  custom:scripting/monoscript/fileName/RandomInstancing.cs: 58742adcc7ff1feca0f10c80ffb55fbb -> 
+  custom:scripting/monoscript/fileName/NavMeshComponentsGUIUtility.cs: 7727a7b6fb8e62a579807e2208fec045 -> 08c52049b94db52661003d42fda4ecff
+  custom:scripting/precompiled-assembly-types:NavMeshComponentsExamples: 3efd995c69d69c634a0066739f4acaf9 -> 
+  custom:scripting/monoscript/fileName/NavMeshSurfaceInPrefabVariantTests.cs: 1a297b729b7e9eab450ce3388cb709df -> 
+  custom:scripting/monoscript/fileName/NavMeshSurfaceLinkTests.cs: 433967ea065d4b03e539201c3d818767 -> 
+  custom:scripting/monoscript/fileName/MeshTool.cs: fb77b6fc2fce448c42f3158e8d133b60 -> 
+  custom:scripting/precompiled-assembly-types:NavMeshComponentsExamplesEditor: 71aae534d4027a4b399aff9a76ea7216 -> 
+  custom:scripting/monoscript/fileName/NavMeshAssetManager.cs: c0f67b5c8ad87f9ecf3b84c56a11d988 -> 79eb4858c2054289cd611249ab36b0a5
+  custom:scripting/monoscript/fileName/NavMeshSurfaceEditor.cs: 321ff910b9943d5fa2d5c027ee7fb546 -> adb1294e971eab992abc2e3e7e051565
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FreeCam.cs: 6b01d577e90acaf7e0ead3c87dd49dd1 -> 
+  custom:scripting/monoscript/fileName/SpawnPrefabOnKeyDown.cs: a05650ca420937f95815db3ebaee0779 -> 
+  custom:scripting/monoscript/fileName/NavMeshModifierVolume.cs: 1737bd420098b37b6fd9775fe02fa677 -> 8dc531216c72b86c60b86e16ff3da10b
+  custom:scripting/monoscript/fileName/NavMeshSurfaceModifierTests.cs: a711cce457126530aa584a848ed381de -> 
+  custom:scripting/monoscript/fileName/DungeonManager.cs: bcbdad6755567b873fc0811c5a775156 -> 
+  custom:scripting/monoscript/fileName/PrefabSavingUtil.cs: dc5bca31de04fb607a04f3513d456571 -> 
+  custom:scripting/monoscript/fileName/NavMeshSurfaceModifierVolumeTests.cs: cd9125a6560d3d1f49d05655a3934bdb -> 
+  custom:scripting/monoscript/fileName/NavMeshModifierEditor.cs: bd2d1da59395487d086a80c0fb854778 -> b8675d28116f43f78881455a7301fe8c
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/EnableIffSleeping.cs: b77d52bb40ead26676c168b24bbf3357 -> 
+  custom:scripting/monoscript/fileName/NavMeshPrefabInstanceEditor.cs: 80ee246ae4439d87a52f9320f89b9729 -> 
+  custom:scripting/monoscript/fileName/ClickToMove.cs: 9e07310c054aaef348ffbd9a36e2a821 -> 
+  custom:scripting/monoscript/fileName/NavMeshLinkEditor.cs: 796c0615de2e40140a320f29fbc8a514 -> aed8ae070d922149bb2ba3de06889ff6
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/NavMeshModifier.cs: a3a371cce2ef14a5e973820c41ddf8ab -> 99ae5ed91bb784edc4f8312d7de046da
+  custom:scripting/precompiled-assembly-types:NavMeshComponentsEditor: b92f3624a3d8c1a1ee49595292dadaef -> 
+  custom:scripting/monoscript/fileName/NavMeshLink.cs: f9fd8ea12628a7e4e7e3aaae04dcfb92 -> 0b3d0eeb07ab57d259e8f9365538df09
+  custom:scripting/monoscript/fileName/NavMeshSurfaceAgentTests.cs: 912f1bad38a7cd268e7d6d69da4aead0 -> 
+  custom:scripting/monoscript/fileName/Oscillator.cs: 8707363efc17ce2e266897b86cf8b114 -> 
+  custom:scripting/monoscript/fileName/NavMeshSurfaceInPrefabTests.cs: 069b546e7dab8cee27913bbceef93176 -> 
+  custom:scripting/monoscript/fileName/RandomWalk.cs: c3dc398e2a4c95c63acbc3e29a22ca94 -> 
+  custom:scripting/monoscript/fileName/NavMeshSourceTag.cs: 20448ff45c032815eca675b2431a9464 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NavMeshModifierVolumeInPrefabTests.cs: 985efd3c92c5b891b5702ca213567462 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PrefabStageAutoSavingUtil.cs: c02e5118467fac2181efb8d6079f0e65 -> 
+  custom:scripting/monoscript/fileName/DestroyOnTrigger.cs: 6d533e1c5b472e3fffdc0739939c57cc -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.100 seconds
+Refreshing native plugins compatible for Editor in 7.27 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.193 seconds
+Domain Reload Profiling: 2290ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (782ms)
+		LoadAssemblies (414ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (465ms)
+			TypeCache.Refresh (446ms)
+				TypeCache.ScanAssembly (427ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1193ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (588ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 5.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4264 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (1.3 MB). Loaded Objects now: 4761.
+Memory consumption went from 151.1 MB to 149.9 MB.
+Total: 4.462100 ms (FindLiveObjects: 0.340700 ms CreateObjectMapping: 0.326000 ms MarkObjects: 3.124400 ms  DeleteObjects: 0.669900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/NavMeshSurface.cs: f7b65cc2b41f7aeecf45a1d48fc1ea9e -> 34aebd278d8d3d5db6b23265b9c700f9
+  custom:scripting/monoscript/fileName/NavMeshSurfaceTests.cs: 8f67c389d0b679d28e5a3c038c225ed9 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/NavMeshModifierVolumeEditor.cs: 31e73a45c763fbf970b28d7cecf04f55 -> 262a50135a116189426aa01c964a744c
+  custom:scripting/monoscript/fileName/LocalNavMeshBuilder.cs: 28f1eda5f0a0a3cd51d435e7b32a3041 -> 
+  custom:scripting/monoscript/fileName/NavMeshPrefabInstance.cs: deb4174c2c6dc593062e8432ba997ae3 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AgentLinkMover.cs: 898dbfc1b14fcef85c312f44f5d96bf6 -> 
+  custom:scripting/monoscript/fileName/RandomInstancing.cs: 58742adcc7ff1feca0f10c80ffb55fbb -> 
+  custom:scripting/monoscript/fileName/NavMeshComponentsGUIUtility.cs: 7727a7b6fb8e62a579807e2208fec045 -> 08c52049b94db52661003d42fda4ecff
+  custom:scripting/monoscript/fileName/NavMeshSurfaceInPrefabVariantTests.cs: 1a297b729b7e9eab450ce3388cb709df -> 
+  custom:scripting/monoscript/fileName/NavMeshSurfaceLinkTests.cs: 433967ea065d4b03e539201c3d818767 -> 
+  custom:scripting/monoscript/fileName/MeshTool.cs: fb77b6fc2fce448c42f3158e8d133b60 -> 
+  custom:scripting/monoscript/fileName/NavMeshAssetManager.cs: c0f67b5c8ad87f9ecf3b84c56a11d988 -> 79eb4858c2054289cd611249ab36b0a5
+  custom:scripting/monoscript/fileName/NavMeshSurfaceEditor.cs: 321ff910b9943d5fa2d5c027ee7fb546 -> adb1294e971eab992abc2e3e7e051565
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SpawnPrefabOnKeyDown.cs: a05650ca420937f95815db3ebaee0779 -> 
+  custom:scripting/monoscript/fileName/FreeCam.cs: 6b01d577e90acaf7e0ead3c87dd49dd1 -> 
+  custom:scripting/monoscript/fileName/NavMeshModifierVolume.cs: 1737bd420098b37b6fd9775fe02fa677 -> 8dc531216c72b86c60b86e16ff3da10b
+  custom:scripting/monoscript/fileName/NavMeshSurfaceModifierTests.cs: a711cce457126530aa584a848ed381de -> 
+  custom:scripting/monoscript/fileName/DungeonManager.cs: bcbdad6755567b873fc0811c5a775156 -> 
+  custom:scripting/monoscript/fileName/PrefabSavingUtil.cs: dc5bca31de04fb607a04f3513d456571 -> 
+  custom:scripting/monoscript/fileName/NavMeshSurfaceModifierVolumeTests.cs: cd9125a6560d3d1f49d05655a3934bdb -> 
+  custom:scripting/monoscript/fileName/NavMeshModifierEditor.cs: bd2d1da59395487d086a80c0fb854778 -> b8675d28116f43f78881455a7301fe8c
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/EnableIffSleeping.cs: b77d52bb40ead26676c168b24bbf3357 -> 
+  custom:scripting/monoscript/fileName/NavMeshPrefabInstanceEditor.cs: 80ee246ae4439d87a52f9320f89b9729 -> 
+  custom:scripting/monoscript/fileName/ClickToMove.cs: 9e07310c054aaef348ffbd9a36e2a821 -> 
+  custom:scripting/monoscript/fileName/NavMeshLinkEditor.cs: 796c0615de2e40140a320f29fbc8a514 -> aed8ae070d922149bb2ba3de06889ff6
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/NavMeshModifier.cs: a3a371cce2ef14a5e973820c41ddf8ab -> 99ae5ed91bb784edc4f8312d7de046da
+  custom:scripting/monoscript/fileName/NavMeshLink.cs: f9fd8ea12628a7e4e7e3aaae04dcfb92 -> 0b3d0eeb07ab57d259e8f9365538df09
+  custom:scripting/monoscript/fileName/NavMeshSurfaceAgentTests.cs: 912f1bad38a7cd268e7d6d69da4aead0 -> 
+  custom:scripting/monoscript/fileName/Oscillator.cs: 8707363efc17ce2e266897b86cf8b114 -> 
+  custom:scripting/monoscript/fileName/NavMeshSurfaceInPrefabTests.cs: 069b546e7dab8cee27913bbceef93176 -> 
+  custom:scripting/monoscript/fileName/RandomWalk.cs: c3dc398e2a4c95c63acbc3e29a22ca94 -> 
+  custom:scripting/monoscript/fileName/NavMeshSourceTag.cs: 20448ff45c032815eca675b2431a9464 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NavMeshModifierVolumeInPrefabTests.cs: 985efd3c92c5b891b5702ca213567462 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PrefabStageAutoSavingUtil.cs: c02e5118467fac2181efb8d6079f0e65 -> 
+  custom:scripting/monoscript/fileName/DestroyOnTrigger.cs: 6d533e1c5b472e3fffdc0739939c57cc -> 
